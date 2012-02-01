@@ -125,7 +125,7 @@ public class MavenPluginArtifactInfoIndexCreator
         }
         catch ( Exception e )
         {
-            getLogger().info( "Failed to parsing Maven plugin " + artifact.getAbsolutePath(), e );
+            getLogger().info( "Failed to parse Maven plugin " + artifact.getAbsolutePath(), e );
         }
         finally
         {
